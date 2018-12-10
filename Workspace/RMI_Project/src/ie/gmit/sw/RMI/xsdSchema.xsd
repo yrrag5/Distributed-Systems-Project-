@@ -3,7 +3,8 @@
 	targetNamespace="http://www.example.org/generateSchema"
 	xmlns:tns="http://www.example.org/generateSchema"
 	elementFormDefault="qualified">
-
+	
+	<!-- Schema to generate Order Transport class-->
 	<element name="OrderTransport">
 		<complexType>
 			<sequence>
