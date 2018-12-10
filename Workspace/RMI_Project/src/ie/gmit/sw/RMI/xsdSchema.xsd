@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.example.org/generateSchema"
+	xmlns:tns="http://www.example.org/generateSchema"
+	elementFormDefault="qualified">
+
+	<element name="OrderTransport">
+		<complexType>
+			<sequence>
+				<element name="bId" type="int"></element>
+				<element name="cId" type="int"></element>
+				<element name="rNo" type="string"></element>
+				<element name="bookingdate" type="date"></element>
+				<element name="bookingEndDate" type="date"></element>			
+			</sequence>
+		</complexType>
+	</element>
+
+</schema>
